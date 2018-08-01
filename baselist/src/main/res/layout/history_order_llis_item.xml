@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="152.7dp">
+
+    <TextView
+        android:id="@+id/completed_tv"
+        android:layout_width="61dp"
+        android:layout_height="21.3dp"
+        android:text="已完成:"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/comp_time_Stamp_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="37.3dp"
+        android:text="time"
+        android:textSize="21sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.7dp"
+        android:layout_marginTop="43dp"
+        android:background="#ededed" />
+
+    <TextView
+        android:layout_width="64.3dp"
+        android:layout_height="17.7dp"
+        android:layout_marginLeft="38.7dp"
+        android:layout_marginTop="57.7dp"
+        android:letterSpacing="0.19"
+        android:text="寄件信息:"
+        android:textSize="13.3sp" />
+
+    <TextView
+        android:id="@+id/comp_from_who_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="106.7dp"
+        android:layout_marginTop="57.7dp"
+        android:text="name  tel" />
+
+    <TextView
+        android:id="@+id/comp_from_pos_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="53dp"
+        android:layout_marginTop="57.7dp"
+        android:letterSpacing="0.19"
+        android:text="address"
+        android:textSize="13.3sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="37.3dp"
+        android:layout_marginTop="89.3dp"
+        android:text="收件信息:"
+        android:textSize="13.3sp" />
+
+    <TextView
+        android:id="@+id/comp_to_who_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="106.7dp"
+        android:layout_marginTop="89.3dp"
+        android:text="name tel" />
+
+    <TextView
+        android:id="@+id/comp_to_des_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="54dp"
+        android:layout_marginTop="89.3dp"
+        android:text="address" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="121dp"
+        android:text="任务编号:" />
+
+    <TextView
+        android:id="@+id/come_id_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="106.7dp"
+        android:layout_marginTop="121dp"
+        android:text="no" />
+</RelativeLayout>
